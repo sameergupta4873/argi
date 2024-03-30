@@ -52,7 +52,7 @@ const Footer = () => {
         <Image
           fill
           className="object-center object-cover pointer-events-none"
-          src={'/footer.png'}
+          src={"/footer.png"}
           alt={"Images of agrity products used in farming"}
           loading="lazy"
         />
@@ -135,19 +135,39 @@ const Footer = () => {
 
             <div className="flex flex-col  mx-auto  gap-3 scale-110 mt-5">
               <div className="font-semibold text-xl">Navigation</div>
-              <Link aria-label="go to home" href="#home" className="hover:text-[#79BC28]">
+              <Link
+                aria-label="go to home"
+                href="#home"
+                className="hover:text-[#79BC28]"
+              >
                 Home
               </Link>
-              <Link aria-label="read more about us" href="#about-us" className="hover:text-[#79BC28]">
+              <Link
+                aria-label="read more about us"
+                href="#about-us"
+                className="hover:text-[#79BC28]"
+              >
                 About Us
               </Link>
-              <Link aria-label="see Our Products" href="#products" className="hover:text-[#79BC28]">
+              <Link
+                aria-label="see Our Products"
+                href="#products"
+                className="hover:text-[#79BC28]"
+              >
                 Our Products
               </Link>
-              <Link aria-label="why choose us" href="#choose" className="hover:text-[#79BC28]">
+              <Link
+                aria-label="why choose us"
+                href="#choose"
+                className="hover:text-[#79BC28]"
+              >
                 Why Choose Us
               </Link>
-              <Link aria-label="see FAQ" href="#faq" className="hover:text-[#79BC28]">
+              <Link
+                aria-label="see FAQ"
+                href="#faq"
+                className="hover:text-[#79BC28]"
+              >
                 FAQ
               </Link>
             </div>
@@ -156,15 +176,21 @@ const Footer = () => {
           <div className="flex flex-col gap-5">
             <div className="flex flex-col gap-3 w-[75%] scale-[110%] mt-3">
               <div className="font-semibold text-lg mb-1">Contact us</div>
-              <div className=" flex  gap-2 mb-2 ">
-                <Image
-                  className="hover:scale-105 hover:translate-y-[-2px] transition-all ease-in-out duration-300 cursor-pointer"
-                  src={iconphone}
-                  alt="iconlocation"
-                  width={140}
-                  height={20}
-                  loading="lazy"
-                />
+              <div className=" flex  gap-2 ">
+                <svg
+                  width="25"
+                  height="25"
+                  viewBox="0 0 40 40"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="bg-white rounded-full"
+                >
+                  <path
+                    d="M0 20C0 31.0283 8.97167 40 20 40C31.0283 40 40 31.0283 40 20C40 8.97167 31.0283 0 20 0C8.97167 0 0 8.97167 0 20ZM8.33333 14.8167C8.33333 13.44 8.83 12.06 9.88 11.0117L12.5583 8.33333L17.8317 13.6067L14.38 17.0583C16.095 21.3267 19 24.115 22.9417 25.62L26.3933 22.1683L31.6667 27.4417L28.9883 30.12C27.94 31.17 26.56 31.6667 25.1833 31.6667C18.1167 31.6667 8.33333 22.4267 8.33333 14.8167Z"
+                    fill="#00C17D"
+                  />
+                </svg>
+                <span>+9198989 77575</span>
               </div>
               <Link
                 href={"mailto:agritycropscience@gmail.com"}
@@ -195,8 +221,8 @@ const Footer = () => {
                   loading="lazy"
                 />
                 <div className="">
-                  Revenue Survey No. 916/1, Plot No. 6, Millennium Park-2, At.
-                  Navagadh (Guj.)
+                  605, Block C, Signature - 2, Near Sarkhej-Sanand Cross Road,
+                  S.G. Highway, Sarkhej, Ahmedabad-382210 Gujarat(India)
                 </div>
               </Link>
             </div>
@@ -218,7 +244,7 @@ const Footer = () => {
                   />
                 </Link>
                 <Link
-                aria-label="check agrity facebook page"
+                  aria-label="check agrity facebook page"
                   href="https://www.facebook.com/people/Agrity-Crop-Science/61553506395795/"
                   target="_blank"
                 >
@@ -830,11 +856,8 @@ const Footer = () => {
                     />
                   </svg>
                   <h1 className="text-white text-[0.75rem] font-thin ml-1">
-                    Revenue Survey No. 916/1,
-                    <br />
-                    Plot No. 6, Millennium Park-2,
-                    <br />
-                    At. Navagadh (Guj.).
+                    605, Block C, Signature - 2, Near Sarkhej-Sanand Cross Road,
+                    S.G. Highway, Sarkhej, Ahmedabad-382210 Gujarat(India)
                   </h1>
                 </Link>
               </div>
@@ -918,7 +941,11 @@ const Footer = () => {
                     />
                   </svg>
                 </Link>
-                <Link aria-label="Contact us on whatsapp" href={"https://wa.me/919898977575"} target="_blank">
+                <Link
+                  aria-label="Contact us on whatsapp"
+                  href={"https://wa.me/919898977575"}
+                  target="_blank"
+                >
                   <svg
                     className="mr-[0.62rem]"
                     xmlns="http://www.w3.org/2000/svg"
