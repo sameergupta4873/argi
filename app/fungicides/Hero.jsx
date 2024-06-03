@@ -370,7 +370,7 @@ const Hero = () => {
                 </svg>
               </div>
               <div className="flex justify-center items-center mt-[-7rem]">
-                <Image src={item.link} alt="product images" className={`max-w-[100%] ${item.name === "Pistal" ? "min-w-[45%] h-[16rem]" : item.name === "AC-PRIDE" ? "min-w-[70%] h-[16rem]" : "min-w-[45%] h-[16rem]" }  scale-90`} width={105} height={85} />
+                <Image src={item.link} alt="product images" className={`max-w-[100%] ${item.name === "Pistal" ? "  h-[16rem]" : item.name === "AC-PRIDE" ? "  h-[16rem]" : "  h-[16rem]" } scale-90 w-auto `} width={150} height={150} />
               </div>
             </div>
             <div className="px-5">
