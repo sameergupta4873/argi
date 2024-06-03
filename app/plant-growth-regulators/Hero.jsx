@@ -5,7 +5,7 @@ import React, { useEffect, useState } from "react";
 import Footer from "../Footer";
 import MobileNav from "../MobileNav";
 import { useRouter } from "next/navigation";
-
+import { plantGrowthRegulators } from "@/app/configs/platsgrowth";
 const navItems = [
   {
     name: "Home",
@@ -28,34 +28,7 @@ const navItems = [
     link: "/#faq",
   },
 ];
-
-const plantGrowthRegulators = [
-  {
-    name: "Alok", 
-    link: "/plant/1.png",
-    desc: "GIBBERELLIC ACID 0.001% SL",
-    options: [
-      "30 ml",
-      "100 ml",
-      "250 ml",
-      "500 ml",
-      "1 ltr",
-      "5 ltr"
-    ]
-  },
-  {
-    name: "Speed Up",
-    link: "/plant/2.png",
-    desc: "Humic Acid 95%",
-    options: [
-      "100 gm",
-      "250 gm",
-      "500 gm",
-      "1 kg",
-    ]
-  }
-]
-
+ 
 const Hero = () => {
   // if scroll is on top, show the navbar
   const [expand, setExpand] = useState(true);
@@ -395,7 +368,7 @@ const Hero = () => {
                 </svg>
               </div>
               <div className="flex justify-center items-center mt-[-7rem]">
-                <Image src={item.link} alt="product images" className={`max-w-[100%] ${item.name === "Pistal" ? "min-w-[45%] h-[16rem]" : item.name === "AC-PRIDE" ? "min-w-[70%] h-[16rem]" : "min-w-[45%] h-[16rem]" }  scale-90`} width={105} height={85} />
+                <Image src={item.link} alt="product images" className={`  h-[200px] max-w-[150px] `} width={200} height={200} />
               </div>
             </div>
             <div className="px-5">

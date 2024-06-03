@@ -5,7 +5,7 @@ import React, { useEffect, useState } from "react";
 import Footer from "../Footer";
 import MobileNav from "../MobileNav";
 import { useRouter } from "next/navigation";
-
+import {herbicides} from '@/app/configs/herbicide'
 const navItems = [
   {
     name: "Home",
@@ -29,77 +29,7 @@ const navItems = [
   },
 ];
 
-const herbicides = [
-  {
-    name: "TEJ SUPER",
-    link: "/herb/1.png",
-    desc: "FENOXAPROP-P-ETHYL 10% EC",
-    options: [
-      "100 ml",
-      "250 ml",
-      "500 ml",
-      "1 ltr",
-    ]
-  },
-  {
-    name: "Agrity-71 (Systemic Herbicide)",
-    link: "/herb/2.png",
-    desc: "Ammonium Salt of Glyphosate 71% SG",
-    options: [
-      "100 gm",
-    ]
-  },
-  {
-    name: "PARAMOUNT",
-    link: "/herb/3.png",
-    desc: "PARAQUAT DICHLORIDE 24% SL",
-    options: [
-      "250 ml",
-      "500 ml",
-      "1 ltr",
-      "5 ltr",
-    ]
-  },
-  {
-    name: "GOLD",
-    link: "/herb/4.png",
-    desc: "Oxyfluorfen 23.5% EC",
-    options: [
-      "50 ml",
-      "100 ml",
-      "250 ml",
-    ]
-  },
-  {
-    name: "AGRIPENDI",
-    link: "/herb/5.png",
-    desc: "PENDIMETHALIN 30% EC",
-    options: [
-      "250 ml",
-      "500 ml",
-      "1 ltr",
-      "5 ltr"
-    ]
-  },
-  {
-    name: "Agrip",
-    link: "/herb/6.png",
-    desc: "METSULFURON METHYL 20% WP",
-    options: [
-      "8 gm + 200 ml. (1 Box)"
-    ]
-  },
-  {
-    name: "Agricell",
-    link: "/herb/7.png",
-    desc: "Glyphosate 41% SL",
-    options: [
-      "500 ml",
-      "1 ltr",
-      "5 ltr",
-    ]
-  }
-]
+ 
 
 const Hero = () => {
   // if scroll is on top, show the navbar

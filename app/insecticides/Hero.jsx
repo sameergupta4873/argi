@@ -5,7 +5,7 @@ import React, { useEffect, useState } from "react";
 import Footer from "../Footer";
 import MobileNav from "../MobileNav";
 import { useRouter } from "next/navigation";
-
+import { insecticides } from "../configs/insecticides";
 const navItems = [
   {
     name: "Home",
@@ -29,134 +29,7 @@ const navItems = [
   },
 ];
 
-const insecticides = [
-  {
-    name: "Pistal",
-    link: "/insect/6.png",
-    desc: "FIPRONIL 2.92% W/W EC",
-    options: [
-      "20 ml",
-      "100 ml",
-      "250 ml",
-      "500 ml",
-      "1 ltr",
-    ]
-  },
-  {
-    name: "Adhira",
-    link: "/insect/7.png",
-    desc: "EMAMECTIN BENZOATE 1.9% EC",
-    options: [
-      "20 ml",
-      "100 ml",
-      "250 ml",
-      "500 ml",
-      "1 ltr",
-    ]
-  },
-  {
-    name: "BULLET-350",
-    link: "/insect/9.png",
-    desc: "Neem Kernel Based EC Containing Azadirachtin 0.3% w/w min (3000 ppm)",
-    options: [
-      "30 ml",
-      "100 ml",
-      "250 ml",
-      "500 ml",
-      "1 ltr",
-    ]
-  },
-  {
-    name: "DETHRIN 11",
-    link: "/insect/4.png",
-    desc: "DELTAMETHRIN 11% EC",
-    options: [
-      "100 ml",
-      "250 ml",
-      "500 ml",
-      "1 ltr",
-    ]
-  },
-  {
-    name: "PROCURE",
-    link: "/insect/5.png",
-    desc: "EMAMECTIN BENZOATE 5% SG",
-    options: [
-      "50 gm",
-      "100 gm",
-      "250 gm",
-      "500 gm",
-    ]
-  },
-  {
-    name: "RING TARA PRO",
-    link: "/insect/3.png",
-    desc: "THIAMETHOXAM 30% FS",
-    options: [
-      "250 ml",
-      "500 ml",
-      "1 ltr",
-    ]
-  },
-  {
-    name: "Wanted",
-    link: "/insect/1.png",
-    desc: "INDOXACARB 14.5% SC",
-    options: [
-      "25 ml",
-      "50 ml",
-      "100 ml",
-      "250 ml",
-      "500 ml",
-    ]
-  },
-  {
-    name: "Circle",
-    link: "/insect/8.png",
-    desc: "CYPERMETHRIN 25% EC",
-    options: [
-      "100 ml",
-      "250 ml",
-      "500 ml",
-      "1 ltr",
-    ]
-  },
-  {
-    name: "RING TARA",
-    link: "/insect/11.png",
-    desc: "THIAMETHOXAM 25% WG",
-    options: [
-      "50 gm",
-      "100 gm",
-      "250 gm",
-      "500 gm",
-      "1 kg",
-    ]
-  },
-  {
-    name: "AC-PRIDE",
-    link: "/insect/10.png",
-    desc: "Acetamiprid 20% SP",
-    options: [
-      "100 gm",
-      "250 gm",
-      "500 gm",
-      "1 kg",
-    ]
-  },
-  {
-    name: "Saurya",
-    link: "/insect/2.png",
-    desc: "THIAMETHOXAM 75% SG",
-    options: [
-      "8 gm",
-      "50 gm",
-      "100 gm",
-      "250 gm",
-      "500 gm",
-    ]
-  },
-]
+ 
 
 const Hero = () => {
   // if scroll is on top, show the navbar
@@ -498,7 +371,7 @@ const Hero = () => {
                 </svg>
               </div>
               <div className="flex justify-center items-center mt-[-7rem]">
-                <Image src={item.link} alt="product images" className={`max-w-[100%] ${item.name === "Pistal" ? "min-w-[45%] h-[16rem]" : item.name === "AC-PRIDE" ? "min-w-[70%] h-[16rem]" : "min-w-[45%] h-[16rem]" }  scale-90`} width={105} height={85} />
+                <Image src={item.link} alt="product images" className={`max-w-[100%] ${item.name === "Pistal" ? "  " : item.name === "AC-PRIDE" ? "min-w-[70%] h-[16rem]" : "min-w-[45%] h-[16rem]" }  scale-90 `} width={150} height={200} />
               </div>
             </div>
             <div className="px-5">

@@ -5,7 +5,7 @@ import React, { useEffect, useState } from "react";
 import Footer from "../Footer";
 import MobileNav from "../MobileNav";
 import { useRouter } from "next/navigation";
-
+import {fungicides} from "@/app/configs/fungicides"
 const navItems = [
   {
     name: "Home",
@@ -29,30 +29,7 @@ const navItems = [
   },
 ];
 
-const fungicides = [
-  {
-    name: "Tiger-22",
-    link: "/fungicides/1.png",
-    desc: "LIME SULPHUR 22% SC",
-    options: [
-      "1 ltr",
-      "5 ltr",
-      "10 ltr",
-      "20 ltr"
-    ]
-  }, 
-  {
-    name: "Cutoff Plus", 
-    link: "/fungicides/2.png",
-    desc: "HEXACONAZOLE 5% SC",
-    options: [
-      "500 ml",
-      "1 ltr",
-      "2.5 ltr",
-      "5 ltr"
-    ]
-  }
-]
+ 
 
 const Hero = () => {
   // if scroll is on top, show the navbar
