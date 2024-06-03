@@ -8,7 +8,7 @@ export const herbicides = [
     {
       name: "TEJ SUPER",
       link: "/herbicide/tejsuper.png",
-      desc: "FENOXAPROP-P-ETHYL 10% EC",
+      desc: "Quizalofop Ethyl 10% EC",
       options: ["500 ml", "1 ltr", "5 ltr"],
     },
     {

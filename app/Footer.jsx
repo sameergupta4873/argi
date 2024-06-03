@@ -14,6 +14,7 @@ import starone from "../public/starone.svg";
 import startwo from "../public/startwo.svg";
 import Link from "next/link";
 import { Icons } from "./Logos";
+const currentYear = new Date().getFullYear() % 100;
 
 const navItems = [
   {
@@ -872,7 +873,7 @@ const Footer = () => {
       </div>
 
       <div className="flex justify-center items-center text-[#494949] py-2 max-md:text-[0.625rem]">
-        Agrity Crop Science ©2013-23 | All Rights Reserved
+        Agrity Crop Science ©2013-{currentYear} | All Rights Reserved
       </div>
     </div>
   );
