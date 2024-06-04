@@ -212,7 +212,7 @@ export const insecticides = [
     {
         name:"THUNDER",
         link:"/insecticides/THUNDER.png",
-        desc:"Lamda-Cyhulothrin 49%",
+        desc:"Lamda-Cyhulothrin 4.9%",
         options:["500 ml","1 ltr"],
     },
     {
