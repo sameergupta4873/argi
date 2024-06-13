@@ -35,6 +35,13 @@ export const insecticides = [
         desc:"THIAMETHOXAM 75% SG",
         options:["50 gm","100 gm","250 gm"],
     },
+
+    {
+        name:"Corsa",
+        link:"/insecticides/CORSA.png",
+        desc:"Chlorantraniliprole 18.5% SC",
+        options:["10 ml","30 ml","60 ml","150 ml", "300 ml"],
+    },
     {
         name:"DETHRIN 11",
         link:"/insecticides/Dethrin-11.png",
