@@ -1,237 +1,286 @@
 export const insecticides = [
     {
-        name:"Pistal",
-        link:"/insecticides/Pistal.png",
-        desc:"FIPRONIL 2.92% W/W EC",
-        options:["20 ml","100 ml","250 ml","500 ml","1 ltr"],
+        name:"ADHIRA",
+        link:"/new-images/ADHIRA.png",
+        desc:"EMAMECTIN BENZOATE 1.9% EC ",
+        options:["20 ML","100 ML","250 ML","500 ML","1 LTR"],
     },
     {
-        name:"Adhira",
-        link:"/insecticides/Adhira.png",
-        desc:"EMAMECTIN BENZOATE 1.9% EC",
-        options:["20 ml","100 ml","250 ml","500 ml","1 ltr"],
+        name:"PISTAL",
+        link:"/new-images/PISTAL.png",
+        desc:"FIPRONIL 2.92% EC",
+        options:["20 ML","100 ML","250 ML","500 ML","1 LTR"],
     },
     {
         name:"BULLET-350",
-        link:"/insecticides/BULLET-350.png",
-        desc:"Neem Kernel Based EC Containing Azadirachtin 0.3% w/w min (3000 ppm)",
-        options:["30 ml","100 ml","250 ml","500 ml","1 ltr"],
+        link:"/new-images/AGRITY BULLET-350.png",
+        desc:"PYRIPROXIFEN 10% + BIFENTHRIN 10% EC",
+        options:["30 ML","100 ML","250 ML","500 ML","1 LTR"],
     },
     {
-        name:"Wanted",
-        link:"/insecticides/Wanted.png",
-        desc:"INDOXACARB 14.5% SC",
-        options:["50 ml","100 ml","250 ml","500 ml"],
-    },
-    {
-        name:"Agrimite",
-        link:"/insecticides/Agrimite.png",
-        desc:"Neem Seed Kernel based EC Containing Azadirachtin - 0.15% (1500 ppm) min.",
-        options:["20 ml","100 ml","250 ml","500 ml","1 ltr"],
-    },
-    {
-        name:"Saurya",
-        link:"/insecticides/Saurya.png",
-        desc:"THIAMETHOXAM 75% SG",
-        options:["50 gm","100 gm","250 gm"],
-    },
-
-    {
-        name:"Corsa",
-        link:"/insecticides/CORSA.png",
-        desc:"Chlorantraniliprole 18.5% SC",
-        options:["10 ml","30 ml","60 ml","150 ml", "300 ml"],
-    },
-    {
-        name:"DETHRIN 11",
-        link:"/insecticides/Dethrin-11.png",
-        desc:"DELTAMETHRIN 11% EC",
-        options:[ "250 ml","500 ml","1 ltr"],
-    },
-    {
-        name:"Ten Star",
-        link:"/insecticides/TENSTAR.png",
-        desc:"Bifenthrin 10% EC",
-        options:[ "250 ml","500 ml","1 ltr"],
-    },
-    {
-        name:"RING TARA PRO",
-        link:"/insecticides/RIngTaraPro.png",
-        desc:"THIAMETHOXAM 30% FS",
-        options:[ "250 ml","500 ml","1 ltr"],
-    },
-    {
-        name:"RING TARA",
-        link:"/insecticides/RINGTARA.png",
-        desc:"THIAMETHOXAM 25% WG",
-        options:[ "100 gm","250 gm","500 gm" ],
-    },
-    {
-        name:"Circle",
-        link:"/insecticides/CIRCLE.png",
-        desc:"CYPERMETHRIN 25% EC",
-        options:[ "250 ml","500 ml","1 ltr"],
-    },
-    {
-        name:"PROCURE",
-        link:"/insecticides/procure.png",
-        desc:"EMAMECTIN BENZOATE 5% SG",
-        options:["100 gm", "250 gm","500 gm"],
-    },
-    {
-        name:"AC-PEIDE",
-        link:"/insecticides/acpride.png",
-        desc:" Acetamiprid 20% SP",
-        options:["100 gm","250 gm","500 gm","1 kg"],
-    },
-    {
-        name:"TOLRADO",
-        link:"/insecticides/TOLRADO.png",
-        desc:"Tolfenpyrad 15% EC",
-        options:[ "250 ml","500 ml","1 ltr"],
-    },
-    {
-        name:"BIFETIN",
-        link:"/insecticides/BIFETIN.png",
-        desc:"Bifenthrin 2.5% EC",
-        options:["250 ml","500 ml","1 ltr"],
+        name:"HUNTER-350",
+        link:"/new-images/HUNTER 350.png",
+        desc:"BIFENTHRIN 10% EC",
+        options:["100 ML","250 ML","500 ML","1 LTR"],
     },
     {
         name:"AMBOZ",
-        link:"/insecticides/AMBOZ.png",
-        desc:"Abamectin 1.9% EC",
-        options:["20 ml","100 ml","250 ml","500 ml","1 ltr"],
+        link:"/new-images/AMBOZ.png",
+        desc:"ABAMECTIN 1.9% EC",
+        options:["100 ML","250 ML","500 ML","1 LTR"],
     },
     {
-        name:"AGGOR",
-        link:"/insecticides/AGGOR.png",
-        desc:"Dimothate 30% EC",
-        options:[ "250 ml","500 ml","1 ltr"],
+        name:"WANTED",
+        link:"/new-images/WANTED.png",
+        desc:"CHLORANTRANILIPROLE 9.3% + LAMBDACYHALOTHRIN 4.6% ZC",
+        options:["50 ML","100 ML","250 ML","500 ML"],
     },
+
     {
-        name:"AC-MONO",
-        link:"/insecticides/AC-MONO.png",
-        desc:"Monocrotophos 36% SL",
-        options: ["500 ml","1 ltr"],
+        name:"CORSA",
+        link:"/new-images/CORSA.png",
+        desc:"CHLORANTRANILIPROLE 18.5% SC",
+        options:[ "30 ML","60 ML","150 ML", "300 ML"],
     },
-    {
-        name:"AC-PHATE",
-        link:"/insecticides/AC-PHATE.png",
-        desc:"Acephate 75% SP",
-        options:[ "250 gm","500 gm","1 kg"],
-    },
-    {
-        name:"AC Phate Gold",
-        link:"/insecticides/ACPhateGold.png",
-        desc:"Acephate 50% + imidacloprid 1.8% SP",
-        options:["250 gm","500 gm","1 kg"],
-    },
-    {
-        name:"Prophet Super",
-        link:"/insecticides/PROPHETSUPER.png",
-        desc:"Profenofos 40% + Cypermethin 4% EC",
-        options:["500 ml","1 ltr"],
-    },
-    {
-        name:"PROPHET",
-        link:"/insecticides/PROPHET.png",
-        desc:"Profenophos 50%",
-        options:[ "500 ml","1 ltr"],
-    },
-    {
-        name:"AC-CHLORA",
-        link:"/insecticides/AC-CHLORA.png",
-        desc:"Chlorpyriphos 20% EC",
-        options:[ "250 ml","500 ml","1 ltr"],
-    },
-    {
-        name:"AC-Chloro Super",
-        link:"/insecticides/Ac-Chloro-Super.png",
-        desc:"Chlorpyrifos 50% EC",
-        options:["250 ml","500 ml","1 ltr"],
-    },
-    {
-        name:"AGRI - 505",
-        link:"/insecticides/AGRI-505.png",
-        desc:"Chlorpyriphos 50% + Cypermethrin 5% EC",
-        options:[ "250 ml","500 ml","1 ltr"],
-    },
-    {
-        name:"BAHADUR",
-        link:"/insecticides/BAHADUR.png",
-        desc:"Ethion 40% + Cypermethrin 5% EC",
-        options:[ "250 ml","500 ml","1 ltr"],
-    },
+
     {
         name:"DABBANG",
-        link:"/insecticides/DABBANG.png",
-        desc:"Lambdacyhalothrin 5% EC",
-        options:["500 ml","1 ltr"],
+        link:"/new-images/DABBANG.png",
+        desc:"THIAMETHOXAM 12.6% + LAMBDACYHALOTHRIN 9.5% ZC",
+        options:["250 ML","500 ML","1 LTR"],
     },
+
     {
-        name:"IRON",
-        link:"/insecticides/IRON.png",
-        desc:"Acephate 95% SG",
-        options:[ "250 ml","500 ml","1 ltr"],
+        name:"RING TARA PRO",
+        link:"/new-images/RINGTARA PRO.png",
+        desc:"THIAMETHOXAM 30% FS",
+        options:[ "250 ML","500 ML","1 LTR"],
     },
+
     {
-        name:"MAZOR",
-        link:"/insecticides/MAZOR.png",
-        desc:"Fipronil 40% + Imidacloprid 40% WG",
-        options:["40 gm","100 gm","250 gm"],
+        name:"TOLRADO",
+        link:"/new-images/TOLRADO.png",
+        desc:"TOLFENPYRAD 15% EC",
+        options:[ "250 ML","500 ML","1 LTR"],
     },
     {
         name:"ATTAK",
-        link:"/insecticides/ATTAK.png",
-        desc:"Thiamethoxim 75% SG",
-        options:["50 gm","100 gm","250 gm","500 gm"],
+        link:"/new-images/ATTAK.png",
+        desc:"THIAMETHOXAM 75% SG ",
+        options:["50 GM","100 GM","250 GM","500 GM"],
+    },
+
+    {
+        name:"RING TARA",
+        link:"/new-images/RINGTARA.png",
+        desc:"THIAMETHOXAM 25% WG",
+        options:[ "50 GM","100 GM","250 GM","500 GM" ],
     },
     {
-        name:"CHLORO-GR",
-        link:"/insecticides/CHLORO-GR.png",
-        desc:"Chlorpyrifos 10% GR",
-        options:[ "1 kg"],
+        name:"SAURYA",
+        link:"/new-images/SAURYA.png",
+        desc:"DINOTEFURAN 15% + PYMETROZINE 45% WG",
+        options:[ "50 GM","100 GM","250 GM","500 GM" ],
     },
     {
-        name:"Capital",
-        link:"/insecticides/CAPITAL.png",
-        desc:"Imidacloprid 48% FS",
-        options:["50 ml","100 ml","250 ml"],
+        name:"PROPHET SUPER",
+        link:"/new-images/PROPHET SUPER.png",
+        desc:"PROFENOFOS 40% + CYPERMETHRIN 4% EC",
+        options:["250 ML","500 ML","1 LTR"],
     },
     {
-        name:"AgriMida",
-        link:"/insecticides/Agrimida.png",
-        desc:"Imidacloprid 17.8 SL",
-        options:[ "100 ml","250 ml","500 ml"],
+        name:"PROPHET",
+        link:"/new-images/PROPHET.png",
+        desc:"PROFENOFOS 50% EC",
+        options:["250 ML", "500 ML","1 LTR"],
     },
     {
-        name:"ANIMAL",
-        link:"/insecticides/ANIMAL.png",
-        desc:"Azadirachtin 0.03% (300Ppm) min.",
-        options:["250 ml","500 ml","1 ltr"],
-    },
-    {
-        name:"THIAOM",
-        link:"/insecticides/THIAOM.png",
-        desc:"Thiamethoxam 12.6% + Lambda-Cyhalothrin 9.5% ZC",
-        options:["250 ml","500 ml","1 ltr"],
+        name:"CAMELEON",
+        link:"/new-images/CHAMELEON.png",
+        desc:"PYRIPROXYFEN 10% EC",
+        options:["250 ML", "500 ML","1 LTR"],
     },
     {
         name:"THUNDER",
-        link:"/insecticides/THUNDER.png",
-        desc:"Lamda-Cyhulothrin 4.9%",
-        options:["500 ml","1 ltr"],
+        link:"/new-images/THUNDER.png",
+        desc:"LAMBDACYHALOTHRIN 5% EC",
+        options:["250 ML","500 ML","1 LTR"],
     },
     {
-        name:"SAMRAT",
-        link:"/insecticides/SAMRAT.png",
-        desc:"Fipronil 5% SC",
-        options:[ "250 ml","500 ml","1 ltr"],
+        name:"THUNDER PLUS",
+        link:"/new-images/THUNDER PLUS.png",
+        desc:"LAMBDACYHALOTHRIN 4.9% CS ",
+        options:["250 ML","500 ML","1 LTR"],
     },
     {
-        name:"Vaalida",
-        link:"/insecticides/VAALIDA.png",
-        desc:"Validamycin 3% L.",
-        options:["250 ml","500 ml","1 ltr"],
+        name:"CIRCLE",
+        link:"/new-images/CIRCLE.png",
+        desc:"CYPERMETHRIN 25% EC ",
+        options:["100 ML", "250 ML","500 ML","1 LTR"],
     },
+    {
+        name:"DETHRIN 11",
+        link:"/new-images/DETHRIN 11.png",
+        desc:"DELTAMETHRIN 11% EC",
+        options:["100 ML","250 ML","500 ML",],
+    },
+    {
+        name:"VENOM-X",
+        link:"/new-images/VENOM-X.png",
+        desc:"DIAFENTHIURON 47% + BIFENTHRIN 9.4% SC",
+        options:[ "250 ML","500 ML","1 LTR"],
+    },
+
+    // ===========================================
+    {
+        "name": "THRONE",
+        "link": "/new-images/THRONE.png",
+        "desc": "DIAFENTHIURON 47.8% SC",
+        "options": ["250 ML", "500 ML", "1 LTR"]
+      },
+      {
+        "name": "PROWOK",
+        "link": "/new-images/PROWOK.png",
+        "desc": "DIAFENTHIURON 50% WP",
+        "options": ["250 GM", "500 GM", "1 KG"]
+      },
+      {
+        "name": "AGGOR",
+        "link": "/new-images/AGGOR.png",
+        "desc": "DIMETHOATE 30% EC",
+        "options": ["250 ML", "500 ML", "1 LTR"]
+      },
+      {
+        "name": "SLAYER",
+        "link": "/new-images/SLAYER.png",
+        "desc": "DINOTEFURAN 20% SG",
+        "options": ["50 GM", "100 GM", "250 GM", "500 GM"]
+      },
+      {
+        "name": "AGRI CLAIM",
+        "link": "/new-images/AGRI-CLAIM.png",
+        "desc": "EMAMECTIN BENZOATE 5% SG",
+        "options": ["100 GM", "250 GM"]
+      },
+      {
+        "name": "BAHADUR",
+        "link": "/new-images/BAHADUR.png",
+        "desc": "ETHION 40% + CYPERMETHRIN 5% EC",
+        "options": ["250 ML", "500 ML", "1 LTR"]
+      },
+      {
+        "name": "UNICORN",
+        "link": "/new-images/UNICORN.png",
+        "desc": "FIPRONIL 40% + IMIDACLOPRID 40% WG",
+        "options": ["40 GM", "100 GM"]
+      },
+      {
+        "name": "SAMRAT",
+        "link": "/new-images/SAMRAT.png",
+        "desc": "FIPRONIL 5% SC",
+        "options": ["250 ML", "500 ML", "1 LTR"]
+      },
+      {
+        "name": "AGRIMIDA",
+        "link": "/new-images/AGRIMIDA.png",
+        "desc": "IMIDACLOPRID 17.8% SL",
+        "options": ["100 ML", "250 ML", "500 ML"]
+      },
+      {
+        "name": "SUPER AGRIMIDA",
+        "link": "/new-images/SUPER AGRIMIDA.png",
+        "desc": "IMIDACLOPRID 30.5% SC",
+        "options": ["100 ML", "250 ML", "500 ML"]
+      },
+      {
+        "name": "NIMO",
+        "link": "/new-images/NIMO.png",
+        "desc": "IMIDACLOPRID 48% FS",
+        "options": ["250 ML", "500 ML", "1 LTR"]
+      },
+      {
+        "name": "ZEEDON",
+        "link": "/new-images/ZEEDON.png",
+        "desc": "IMIDACLOPRID 70% WG",
+        "options": ["50 GM", "100 GM", "250 GM"]
+      },
+      {
+        "name": "ADVERTO",
+        "link": "/new-images/ADVERTO.png",
+        "desc": "INDOXACARB 14.5% SC",
+        "options": ["50 ML", "100 ML", "250 ML"]
+      },
+      {
+        "name": "NISAGRA",
+        "link": "/new-images/NISAGRA.png",
+        "desc": "NEEM KERNEL AZADIRACHTIN 0.3% (3000 PPM)",
+        "options": ["100 ML", "250 ML", "500 ML", "1 LTR"]
+      },
+      {
+        "name": "ANIMAL",
+        "link": "/new-images/ANIMAL.png",
+        "desc": "NEEM KERNEL AZADIRACHTIN 0.03% (300 PPM)",
+        "options": ["100 ML", "250 ML", "500 ML", "1 LTR"]
+      },
+      {
+        "name": "AGRIMITE",
+        "link": "/new-images/AGRIMITE.png",
+        "desc": "NEEM KERNEL AZADIRACHTIN 0.15% (1500 PPM)",
+        "options": ["100 ML", "250 ML", "500 ML", "1 LTR"]
+      },
+      {
+        "name": "SANGRAM SP",
+        "link": "/new-images/SANGRAM SP.png",
+        "desc": "ACEPHATE 50% + IMIDACLOPRID 1.8% SP",
+        "options": ["250 GM", "500 GM", "1 KG"]
+      },
+      {
+        "name": "ACEHUNT",
+        "link": "/new-images/ACEHUNT.png",
+        "desc": "ACEPHATE 75% SP",
+        "options": ["250 GM", "500 GM", "1 KG"]
+      },
+      {
+        "name": "IRON",
+        "link": "/new-images/IRON.png",
+        "desc": "ACEPHATE 95% SG",
+        "options": ["250 GM", "500 GM", "1 KG"]
+      },
+      {
+        "name": "AC-PRIDE",
+        "link": "/new-images/AC-PRIDE.png",
+        "desc": "ACETAMIPRID 20% SP",
+        "options": ["100 GM", "250 GM"]
+      },
+      {
+        "name": "SUPRA",
+        "link": "/new-images/SUPRA.png",
+        "desc": "BUPROFENZIN 15% + ACEPHATE 35% WP",
+        "options": ["250 GM", "500 GM", "1 KG"]
+      },
+      {
+        "name": "AC-CHLORO SUPER",
+        "link": "/new-images/AC-CHLORO SUPER.png",
+        "desc": "CHLORPYRIPHOS 50% EC",
+        "options": ["250 ML", "500 ML", "1 LTR"]
+      },
+      {
+        "name": "AC-CHLORO",
+        "link": "/new-images/AC-CHLORA.png",
+        "desc": "CHLORPYRIPHOS 20% EC",
+        "options": ["250 ML", "500 ML", "1 LTR"]
+      },
+      {
+        "name": "AGRI-505",
+        "link": "/new-images/AGRI-505.png",
+        "desc": "CHLORPYRIPHOS 50% + CYPERMETHRIN 5% EC",
+        "options": ["250 ML", "500 ML", "1 LTR"]
+      },
+      {
+        "name": "CHLORO-GR",
+        "link": "/new-images/CHLORO-GR.png",
+        "desc": "CHLORPYRIPHOS 10% GR",
+        "options": ["1 KG"]
+      },
+    
 ]
