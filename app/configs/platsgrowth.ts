@@ -14,13 +14,13 @@ export const plantGrowthRegulators = [
   {
     "name": "GLOW SHINE",
     "link": "/new-images/GLOW SHINE.png",
-    "desc": "GLOW SHINE",
+    "desc": "AMINO ACID & VITAMINS",
     "options": ["100 ML", "250 ML", "500 ML"]
   },
   {
     "name": "AGRI HUMIC-95",
     "link": "/new-images/AGRI HUMIC-95.png",
-    "desc": "AGRI HUMIC-95",
+    "desc": "HUMIC ACID 95&",
     "options": ["500 GM", "1 KG"]
   },
   {
@@ -38,43 +38,43 @@ export const plantGrowthRegulators = [
   {
     "name": "AGRI CARBON",
     "link": "/new-images/AGRI CARBON.png",
-    "desc": "AGRI CARBON",
+    "desc": "ORGANIC CARBON MANURE",
     "options": ["500 GM", "1 KG"]
   },
   {
     "name": "AGRI AMRUT",
     "link": "/new-images/AGRI-AMRUT.png",
-    "desc": "AGRI AMRUT",
+    "desc": "LIQUID FERMENTED ORGANIC MANURE",
     "options": ["1 LTR", "5 LTR", "20 LTR"]
   },
   {
     "name": "AGRI HUMIC-12",
     "link": "/new-images/AGRI HUMIC-12.png",
-    "desc": "AGRI HUMIC-12",
+    "desc": "SUPER POTTASIUM HUMATE 12%",
     "options": ["1 LTR"]
   },
   {
     "name": "Z PLUS",
     "link": "/new-images/Z PLUS.png",
-    "desc": "Z PLUS",
+    "desc": "BASED ON BROWN ALGAE",
     "options": ["5 KG", "10 KG"]
   },
   {
     "name": "AGRI MYCOR",
     "link": "/new-images/AGRI MYCOR.png",
-    "desc": "AGRI MYCOR",
+    "desc": "NUTRIENT MOBILISING MYCORRHIZAL SPECIES",
     "options": ["4 KG", "16 KG", "30 KG"]
   },
   {
     "name": "SUPER POWER",
     "link": "/new-images/SUPER POWER.png",
-    "desc": "SUPER POWER",
+    "desc": "PLANT GROWTH PROMOTER",
     "options": ["500 ML", "1 LTR"]
   },
   {
     "name": "AGRI SPREADER-80",
     "link": "/new-images/AGRI SPREADER 80.png",
-    "desc": "AGRI SPREADER-80",
+    "desc": "SILICON BASED SPREADER ACTIVATOR",
     "options": ["50 ML", "100 ML", "250 ML", "500 ML"]
   }
 ];
