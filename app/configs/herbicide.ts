@@ -95,10 +95,5 @@ export const herbicides = [
     "desc": "FENOXAPROP-P ETHYL 10% EC",
     "options": ["250 ML", "500 ML", "1 LTR"]
   },
-  {
-    "name": "ALOK",
-    "link": "/new-images/ALOK.png",
-    "desc": "GIBBRELLIC ACID 0.001% L",
-    "options": ["40 ML", "500 ML", "1 LTR", "5 LTR"]
-  }
+
   ];

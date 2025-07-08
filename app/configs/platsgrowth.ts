@@ -1,5 +1,11 @@
 export const plantGrowthRegulators = [
   {
+    "name": "ALOK",
+    "link": "/new-images/ALOK.png",
+    "desc": "GIBBRELLIC ACID 0.001% L",
+    "options": ["40 ML", "500 ML", "1 LTR", "5 LTR"]
+  },
+  {
     "name": "SUMO",
     "link": "/new-images/SUMO.png",
     "desc": "PACLOBUTRAZOLE 40% SC",
