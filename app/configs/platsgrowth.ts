@@ -26,19 +26,19 @@ export const plantGrowthRegulators = [
   {
     "name": "AGRI HUMIC-95",
     "link": "/new-images/AGRI HUMIC-95.png",
-    "desc": "HUMIC ACID 95&",
+    "desc": "HUMIC ACID 95%",
     "options": ["500 GM", "1 KG"]
   },
   {
     "name": "SPEED UP",
     "link": "/new-images/SPEED UP.png",
-    "desc": "SPEED UP",
+    "desc": "HUMIC ACID 95%",
     "options": ["500 GM", "1 KG"]
   },
   {
     "name": "AGRI HUMIC-98",
     "link": "/new-images/AGRI-HUMIC-98.png",
-    "desc": "AGRI HUMIC-98",
+    "desc": "HUMIC ACID 98%",
     "options": ["250 GM", "500 GM"]
   },
   {
