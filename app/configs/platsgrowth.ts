@@ -18,6 +18,12 @@ export const plantGrowthRegulators = [
     "options": ["500 ML", "1 LTR"]
   },
   {
+    "name": "UDAAN",
+    "link": "/new-images/udan.png",
+    "desc": "Gibberellic Acid 40% WSG",
+    "options": []
+  },
+  {
     "name": "GLOW SHINE",
     "link": "/new-images/GLOW SHINE.png",
     "desc": "AMINO ACID & VITAMINS",
