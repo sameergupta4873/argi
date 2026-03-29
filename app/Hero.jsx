@@ -87,26 +87,24 @@ const Hero = () => {
         src={active === 0
           ? '/hero.webp'
           : active === 1
-          ? "/hero1.webp"
-          : "/hero2.webp"}
+            ? "/hero1.webp"
+            : "/hero2.webp"}
         alt={"Images of AGRITY CROP SCIENCE products used in farming"}
         priority
       />
       <div className="h-[100vh] w-[98.95vw] relative z-1 bg-gradient-to-b from-black to-transparent">
         <div
-          className={`w-full bg-white  ${
-            expand
-              ? "absolute top-[2.5rem] bg-opacity-[30%] h-[6rem]"
-              : "fixed top-0 h-[4.5rem] shadow-xl"
-          } transition-all duration-[350ms] ease-linear z-[300] flex justify-between items-center max-md:hidden`}
+          className={`w-full bg-white  ${expand
+            ? "absolute top-[2.5rem] bg-opacity-[30%] h-[6rem]"
+            : "fixed top-0 h-[4.5rem] shadow-xl"
+            } transition-all duration-[350ms] ease-linear z-[300] flex justify-between items-center max-md:hidden`}
         >
           <div
-            className={`h-full w-[9.5rem] bg-white ${
-              expand ? "" : "border-r-[1.5px] border-[#A6A6A6]"
-            }`}
+            className={`h-full flex justify-center items-center w-[9.5rem] bg-white ${expand ? "" : "border-r-[1.5px] border-[#A6A6A6]"
+              }`}
           >
             <Icons.TopBarLogoWeb />
-            
+
           </div>
           <div className="flex h-full overflow-hidden">
             {navItems.map((item, index) => {
@@ -122,11 +120,10 @@ const Hero = () => {
                   >
                     <div
                       key={`nav_${index}`}
-                      className={`px-5 flex justify-center items-center font-semibold text-[1rem] ${
-                        expand
-                          ? "min-h-[6rem] text-white"
-                          : "min-h-[4.5rem] text-[#444444]"
-                      } group-hover:text-[#79BC28] transition-all duration-[600ms] ease-in-out flex justify-center items-center`}
+                      className={`px-5 flex justify-center items-center font-semibold text-[1rem] ${expand
+                        ? "min-h-[6rem] text-white"
+                        : "min-h-[4.5rem] text-[#444444]"
+                        } group-hover:text-[#79BC28] transition-all duration-[600ms] ease-in-out flex justify-center items-center`}
                     >
                       {item.name === "Brochure" && (
                         <svg
@@ -201,11 +198,10 @@ const Hero = () => {
           </div>
         </div>
         <div
-          className={`absolute top-[15rem] ${
-            active === 0
-              ? "left-[3rem] max-md:left-[50%] max-md:translate-x-[-50%]"
-              : "left-[-40rem] opacity-0"
-          } transition-all duration-500 ease-in-out max-md:text-center max-md:flex max-md:flex-col max-md:items-center max-md:justify-center`}
+          className={`absolute top-[15rem] ${active === 0
+            ? "left-[3rem] max-md:left-[50%] max-md:translate-x-[-50%]"
+            : "left-[-40rem] opacity-0"
+            } transition-all duration-500 ease-in-out max-md:text-center max-md:flex max-md:flex-col max-md:items-center max-md:justify-center`}
         >
           <p className="text-white text-[3rem] font-bold max-md:hidden">
             Better Environment,
@@ -221,7 +217,7 @@ const Hero = () => {
           </p>
           <div className="">
             <Link
-            aria-label="Contact us on whatsapp"
+              aria-label="Contact us on whatsapp"
               href="https://wa.me/919898977575"
               target="_blank"
               className="flex justify-center items-center rounded-full bg-[#76B728] hover:bg-[#036B46] transition-all duration-[600ms] ease-in-out cursor-pointer px-5 py-3 text-white w-min whitespace-nowrap mt-4 ml-1 max-md:text-[0.875rem] max-md:py-2 max-md:px-4 max-md:scale-90"
@@ -253,11 +249,10 @@ const Hero = () => {
           </div>
         </div>
         <div
-          className={`absolute top-[15rem] ${
-            active === 1
-              ? "left-[3rem] max-md:left-[50%] max-md:translate-x-[-50%]"
-              : "left-[-40rem] opacity-0"
-          } transition-all duration-500 ease-in-out max-md:text-center max-md:flex max-md:flex-col max-md:items-center max-md:justify-center`}
+          className={`absolute top-[15rem] ${active === 1
+            ? "left-[3rem] max-md:left-[50%] max-md:translate-x-[-50%]"
+            : "left-[-40rem] opacity-0"
+            } transition-all duration-500 ease-in-out max-md:text-center max-md:flex max-md:flex-col max-md:items-center max-md:justify-center`}
         >
           <p className="text-white text-[3rem] font-bold max-md:hidden">
             Better Environment,
@@ -273,7 +268,7 @@ const Hero = () => {
           </p>
           <div className="">
             <Link
-            aria-label="Contact us on whatsapp"
+              aria-label="Contact us on whatsapp"
               href="https://wa.me/919898977575"
               target="_blank"
               className="flex justify-center items-center rounded-full bg-[#76B728] hover:bg-[#036B46] transition-all duration-[600ms] ease-in-out cursor-pointer px-5 py-3 text-white w-min whitespace-nowrap mt-4 ml-1 max-md:text-[0.875rem] max-md:py-2 max-md:px-4 max-md:scale-90"
@@ -305,11 +300,10 @@ const Hero = () => {
           </div>
         </div>
         <div
-          className={`absolute top-[15rem] ${
-            active === 2
-              ? "left-[3rem] max-md:left-[50%] max-md:translate-x-[-50%]"
-              : "left-[-40rem] opacity-0"
-          } transition-all duration-500 ease-in-out max-md:text-center max-md:flex max-md:flex-col max-md:items-center max-md:justify-center`}
+          className={`absolute top-[15rem] ${active === 2
+            ? "left-[3rem] max-md:left-[50%] max-md:translate-x-[-50%]"
+            : "left-[-40rem] opacity-0"
+            } transition-all duration-500 ease-in-out max-md:text-center max-md:flex max-md:flex-col max-md:items-center max-md:justify-center`}
         >
           <p className="text-white text-[3rem] font-bold max-md:hidden">
             Better Environment,
@@ -325,7 +319,7 @@ const Hero = () => {
           </p>
           <div className="">
             <Link
-            aria-label="Contact us on whatsapp"
+              aria-label="Contact us on whatsapp"
               href="https://wa.me/919898977575"
               target="_blank"
               className="flex justify-center items-center rounded-full bg-[#76B728] hover:bg-[#036B46] transition-all duration-[600ms] ease-in-out cursor-pointer px-5 py-3 text-white w-min whitespace-nowrap mt-4 ml-1 max-md:text-[0.875rem] max-md:py-2 max-md:px-4 max-md:scale-90"
@@ -362,25 +356,22 @@ const Hero = () => {
               onClick={() => {
                 setActive(0);
               }}
-              className={`bg-white rounded-full h-2 ${
-                active === 0 ? "w-[2.8rem]" : "w-2"
-              }  cursor-pointer transition-all duration-300 ease-in-out`}
+              className={`bg-white rounded-full h-2 ${active === 0 ? "w-[2.8rem]" : "w-2"
+                }  cursor-pointer transition-all duration-300 ease-in-out`}
             ></div>
             <div
               onClick={() => {
                 setActive(1);
               }}
-              className={`bg-white rounded-full h-2 ${
-                active === 1 ? "w-[2.8rem]" : "w-2"
-              }  cursor-pointer mx-1 transition-all duration-300 ease-in-out`}
+              className={`bg-white rounded-full h-2 ${active === 1 ? "w-[2.8rem]" : "w-2"
+                }  cursor-pointer mx-1 transition-all duration-300 ease-in-out`}
             ></div>
             <div
               onClick={() => {
                 setActive(2);
               }}
-              className={`bg-white rounded-full h-2 ${
-                active === 2 ? "w-[2.8rem]" : "w-2"
-              }  cursor-pointer transition-all duration-300 ease-in-out`}
+              className={`bg-white rounded-full h-2 ${active === 2 ? "w-[2.8rem]" : "w-2"
+                }  cursor-pointer transition-all duration-300 ease-in-out`}
             ></div>
           </div>
         </div>

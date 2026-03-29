@@ -188,8 +188,7 @@ const Choose = () => {
                 <h1 className="text-[#FFF] text-[1.75rem] font-semibold mt-1 max-md:text-[1rem]">IN-HOUSE</h1>
                 <p className="text-[#FFF] text-[0.85rem] font-thin mt-0.5 max-md:text-[0.5rem]">Manufacturing, Testing & Quality Control Lab</p>
               </div>
-              <div className="h-[12rem] w-[13.775rem] rounded-md flex items-center justify-center scale-90 transition-all duration-300 ease-in-out cursor-pointer max-md:scale-75">
-                <Icons.WhyChooseUsMobile />
+              <div className="h-[12rem] w-[12rem] max-md:h-[6.5rem] max-md:w-[6.5rem] flex items-center justify-center scale-90 transition-all duration-300 ease-in-out cursor-pointer bg-white rounded-full">  <Icons.WhyChooseUsMobile />
                 <Icons.WhyChooseUsWeb />
               </div>
             </div>
